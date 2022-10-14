@@ -23,3 +23,5 @@ require (
 	golang.org/x/net v0.0.0-20221004154528-8021a29435af
 	golang.org/x/sys v0.0.0-20221010170243-090e33056c14 // indirect
 )
+
+replace github.com/pion/ice/v2 v2.2.11 => github.com/inve1/ice/v2 v2.0.0-20221014145124-33dcd7a6cf91
